@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB20A8691DC718760082D22C /* FQCellAdaptiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20A8681DC718760082D22C /* FQCellAdaptiveController.m */; };
+		CB20A86D1DC71BEB0082D22C /* textAdaptiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20A86B1DC71BEB0082D22C /* textAdaptiveCell.m */; };
+		CB20A86E1DC71BEB0082D22C /* textAdaptiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB20A86C1DC71BEB0082D22C /* textAdaptiveCell.xib */; };
+		CBB94A501DCB1EA300BEAF13 /* FQhandAdaptController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94A4F1DCB1EA300BEAF13 /* FQhandAdaptController.m */; };
+		CBB94A531DCB1FD000BEAF13 /* textHandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94A521DCB1FD000BEAF13 /* textHandCell.m */; };
+		CBEF88A21DC04D9E003BB4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88A11DC04D9E003BB4FE /* main.m */; };
+		CBEF88A51DC04D9E003BB4FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88A41DC04D9E003BB4FE /* AppDelegate.m */; };
+		CBEF88A81DC04D9E003BB4FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88A71DC04D9E003BB4FE /* ViewController.m */; };
+		CBEF88AB1DC04D9E003BB4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF88A91DC04D9E003BB4FE /* Main.storyboard */; };
+		CBEF88AD1DC04D9E003BB4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF88AC1DC04D9E003BB4FE /* Assets.xcassets */; };
+		CBEF88B01DC04D9E003BB4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF88AE1DC04D9E003BB4FE /* LaunchScreen.storyboard */; };
+		CBEF88BB1DC04D9E003BB4FE /* FQadaptiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88BA1DC04D9E003BB4FE /* FQadaptiveTests.m */; };
+		CBEF88C61DC04D9E003BB4FE /* FQadaptiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88C51DC04D9E003BB4FE /* FQadaptiveUITests.m */; };
+		CBEF88D91DC05982003BB4FE /* FQImageAndTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88D81DC05982003BB4FE /* FQImageAndTextController.m */; };
+		CBEF88DD1DC07D6D003BB4FE /* FQWidthAndHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88DC1DC07D6D003BB4FE /* FQWidthAndHeightController.m */; };
+		CBEF88E11DC0B0DE003BB4FE /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEF88E01DC0B0DE003BB4FE /* UIViewExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEF88B71DC04D9E003BB4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEF88951DC04D9E003BB4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEF889C1DC04D9E003BB4FE;
+			remoteInfo = FQadaptive;
+		};
+		CBEF88C21DC04D9E003BB4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEF88951DC04D9E003BB4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEF889C1DC04D9E003BB4FE;
+			remoteInfo = FQadaptive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB20A8671DC718760082D22C /* FQCellAdaptiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQCellAdaptiveController.h; sourceTree = "<group>"; };
+		CB20A8681DC718760082D22C /* FQCellAdaptiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQCellAdaptiveController.m; sourceTree = "<group>"; };
+		CB20A86A1DC71BEB0082D22C /* textAdaptiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textAdaptiveCell.h; sourceTree = "<group>"; };
+		CB20A86B1DC71BEB0082D22C /* textAdaptiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textAdaptiveCell.m; sourceTree = "<group>"; };
+		CB20A86C1DC71BEB0082D22C /* textAdaptiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = textAdaptiveCell.xib; sourceTree = "<group>"; };
+		CBB94A4E1DCB1EA300BEAF13 /* FQhandAdaptController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQhandAdaptController.h; sourceTree = "<group>"; };
+		CBB94A4F1DCB1EA300BEAF13 /* FQhandAdaptController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQhandAdaptController.m; sourceTree = "<group>"; };
+		CBB94A511DCB1FD000BEAF13 /* textHandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textHandCell.h; sourceTree = "<group>"; };
+		CBB94A521DCB1FD000BEAF13 /* textHandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textHandCell.m; sourceTree = "<group>"; };
+		CBEF889D1DC04D9E003BB4FE /* FQadaptive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQadaptive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF88A11DC04D9E003BB4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBEF88A31DC04D9E003BB4FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBEF88A41DC04D9E003BB4FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBEF88A61DC04D9E003BB4FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBEF88A71DC04D9E003BB4FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBEF88AA1DC04D9E003BB4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBEF88AC1DC04D9E003BB4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEF88AF1DC04D9E003BB4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBEF88B11DC04D9E003BB4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF88B61DC04D9E003BB4FE /* FQadaptiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQadaptiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF88BA1DC04D9E003BB4FE /* FQadaptiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQadaptiveTests.m; sourceTree = "<group>"; };
+		CBEF88BC1DC04D9E003BB4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF88C11DC04D9E003BB4FE /* FQadaptiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQadaptiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF88C51DC04D9E003BB4FE /* FQadaptiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQadaptiveUITests.m; sourceTree = "<group>"; };
+		CBEF88C71DC04D9E003BB4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF88D31DC050AA003BB4FE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CBEF88D71DC05982003BB4FE /* FQImageAndTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQImageAndTextController.h; sourceTree = "<group>"; };
+		CBEF88D81DC05982003BB4FE /* FQImageAndTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQImageAndTextController.m; sourceTree = "<group>"; };
+		CBEF88DB1DC07D6D003BB4FE /* FQWidthAndHeightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQWidthAndHeightController.h; sourceTree = "<group>"; };
+		CBEF88DC1DC07D6D003BB4FE /* FQWidthAndHeightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQWidthAndHeightController.m; sourceTree = "<group>"; };
+		CBEF88DF1DC0B0DE003BB4FE /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		CBEF88E01DC0B0DE003BB4FE /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEF889A1DC04D9E003BB4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88B31DC04D9E003BB4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88BE1DC04D9E003BB4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB20A8661DC718560082D22C /* Cell自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				CB20A8671DC718760082D22C /* FQCellAdaptiveController.h */,
+				CB20A8681DC718760082D22C /* FQCellAdaptiveController.m */,
+				CB20A86A1DC71BEB0082D22C /* textAdaptiveCell.h */,
+				CB20A86B1DC71BEB0082D22C /* textAdaptiveCell.m */,
+				CB20A86C1DC71BEB0082D22C /* textAdaptiveCell.xib */,
+			);
+			path = "Cell自适应";
+			sourceTree = "<group>";
+		};
+		CBB94A4D1DCB1E4C00BEAF13 /* Cell(手码)自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				CBB94A4E1DCB1EA300BEAF13 /* FQhandAdaptController.h */,
+				CBB94A4F1DCB1EA300BEAF13 /* FQhandAdaptController.m */,
+				CBB94A511DCB1FD000BEAF13 /* textHandCell.h */,
+				CBB94A521DCB1FD000BEAF13 /* textHandCell.m */,
+			);
+			path = "Cell(手码)自适应";
+			sourceTree = "<group>";
+		};
+		CBEF88941DC04D9E003BB4FE = {
+			isa = PBXGroup;
+			children = (
+				CBEF889F1DC04D9E003BB4FE /* FQadaptive */,
+				CBEF88B91DC04D9E003BB4FE /* FQadaptiveTests */,
+				CBEF88C41DC04D9E003BB4FE /* FQadaptiveUITests */,
+				CBEF889E1DC04D9E003BB4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEF889E1DC04D9E003BB4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF889D1DC04D9E003BB4FE /* FQadaptive.app */,
+				CBEF88B61DC04D9E003BB4FE /* FQadaptiveTests.xctest */,
+				CBEF88C11DC04D9E003BB4FE /* FQadaptiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEF889F1DC04D9E003BB4FE /* FQadaptive */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88A31DC04D9E003BB4FE /* AppDelegate.h */,
+				CBEF88A41DC04D9E003BB4FE /* AppDelegate.m */,
+				CBEF88A61DC04D9E003BB4FE /* ViewController.h */,
+				CBEF88A71DC04D9E003BB4FE /* ViewController.m */,
+				CBEF88D61DC05950003BB4FE /* Labe图文混排 */,
+				CBEF88DA1DC07D53003BB4FE /* Label宽高自适应 */,
+				CB20A8661DC718560082D22C /* Cell自适应 */,
+				CBB94A4D1DCB1E4C00BEAF13 /* Cell(手码)自适应 */,
+				CBEF88DE1DC0B0DE003BB4FE /* UIViewExt */,
+				CBEF88D31DC050AA003BB4FE /* PrefixHeader.pch */,
+				CBEF88A01DC04D9E003BB4FE /* Supporting Files */,
+			);
+			path = FQadaptive;
+			sourceTree = "<group>";
+		};
+		CBEF88A01DC04D9E003BB4FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88A91DC04D9E003BB4FE /* Main.storyboard */,
+				CBEF88AC1DC04D9E003BB4FE /* Assets.xcassets */,
+				CBEF88AE1DC04D9E003BB4FE /* LaunchScreen.storyboard */,
+				CBEF88B11DC04D9E003BB4FE /* Info.plist */,
+				CBEF88A11DC04D9E003BB4FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBEF88B91DC04D9E003BB4FE /* FQadaptiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88BA1DC04D9E003BB4FE /* FQadaptiveTests.m */,
+				CBEF88BC1DC04D9E003BB4FE /* Info.plist */,
+			);
+			path = FQadaptiveTests;
+			sourceTree = "<group>";
+		};
+		CBEF88C41DC04D9E003BB4FE /* FQadaptiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88C51DC04D9E003BB4FE /* FQadaptiveUITests.m */,
+				CBEF88C71DC04D9E003BB4FE /* Info.plist */,
+			);
+			path = FQadaptiveUITests;
+			sourceTree = "<group>";
+		};
+		CBEF88D61DC05950003BB4FE /* Labe图文混排 */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88D71DC05982003BB4FE /* FQImageAndTextController.h */,
+				CBEF88D81DC05982003BB4FE /* FQImageAndTextController.m */,
+			);
+			path = "Labe图文混排";
+			sourceTree = "<group>";
+		};
+		CBEF88DA1DC07D53003BB4FE /* Label宽高自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88DB1DC07D6D003BB4FE /* FQWidthAndHeightController.h */,
+				CBEF88DC1DC07D6D003BB4FE /* FQWidthAndHeightController.m */,
+			);
+			path = "Label宽高自适应";
+			sourceTree = "<group>";
+		};
+		CBEF88DE1DC0B0DE003BB4FE /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF88DF1DC0B0DE003BB4FE /* UIViewExt.h */,
+				CBEF88E01DC0B0DE003BB4FE /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEF889C1DC04D9E003BB4FE /* FQadaptive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF88CA1DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptive" */;
+			buildPhases = (
+				CBEF88991DC04D9E003BB4FE /* Sources */,
+				CBEF889A1DC04D9E003BB4FE /* Frameworks */,
+				CBEF889B1DC04D9E003BB4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQadaptive;
+			productName = FQadaptive;
+			productReference = CBEF889D1DC04D9E003BB4FE /* FQadaptive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBEF88B51DC04D9E003BB4FE /* FQadaptiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF88CD1DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptiveTests" */;
+			buildPhases = (
+				CBEF88B21DC04D9E003BB4FE /* Sources */,
+				CBEF88B31DC04D9E003BB4FE /* Frameworks */,
+				CBEF88B41DC04D9E003BB4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEF88B81DC04D9E003BB4FE /* PBXTargetDependency */,
+			);
+			name = FQadaptiveTests;
+			productName = FQadaptiveTests;
+			productReference = CBEF88B61DC04D9E003BB4FE /* FQadaptiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBEF88C01DC04D9E003BB4FE /* FQadaptiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF88D01DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptiveUITests" */;
+			buildPhases = (
+				CBEF88BD1DC04D9E003BB4FE /* Sources */,
+				CBEF88BE1DC04D9E003BB4FE /* Frameworks */,
+				CBEF88BF1DC04D9E003BB4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEF88C31DC04D9E003BB4FE /* PBXTargetDependency */,
+			);
+			name = FQadaptiveUITests;
+			productName = FQadaptiveUITests;
+			productReference = CBEF88C11DC04D9E003BB4FE /* FQadaptiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEF88951DC04D9E003BB4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "冯倩";
+				TargetAttributes = {
+					CBEF889C1DC04D9E003BB4FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CBEF88B51DC04D9E003BB4FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBEF889C1DC04D9E003BB4FE;
+					};
+					CBEF88C01DC04D9E003BB4FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBEF889C1DC04D9E003BB4FE;
+					};
+				};
+			};
+			buildConfigurationList = CBEF88981DC04D9E003BB4FE /* Build configuration list for PBXProject "FQadaptive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEF88941DC04D9E003BB4FE;
+			productRefGroup = CBEF889E1DC04D9E003BB4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEF889C1DC04D9E003BB4FE /* FQadaptive */,
+				CBEF88B51DC04D9E003BB4FE /* FQadaptiveTests */,
+				CBEF88C01DC04D9E003BB4FE /* FQadaptiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEF889B1DC04D9E003BB4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20A86E1DC71BEB0082D22C /* textAdaptiveCell.xib in Resources */,
+				CBEF88B01DC04D9E003BB4FE /* LaunchScreen.storyboard in Resources */,
+				CBEF88AD1DC04D9E003BB4FE /* Assets.xcassets in Resources */,
+				CBEF88AB1DC04D9E003BB4FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88B41DC04D9E003BB4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88BF1DC04D9E003BB4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEF88991DC04D9E003BB4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20A86D1DC71BEB0082D22C /* textAdaptiveCell.m in Sources */,
+				CBB94A531DCB1FD000BEAF13 /* textHandCell.m in Sources */,
+				CBB94A501DCB1EA300BEAF13 /* FQhandAdaptController.m in Sources */,
+				CBEF88DD1DC07D6D003BB4FE /* FQWidthAndHeightController.m in Sources */,
+				CBEF88A81DC04D9E003BB4FE /* ViewController.m in Sources */,
+				CB20A8691DC718760082D22C /* FQCellAdaptiveController.m in Sources */,
+				CBEF88A51DC04D9E003BB4FE /* AppDelegate.m in Sources */,
+				CBEF88A21DC04D9E003BB4FE /* main.m in Sources */,
+				CBEF88E11DC0B0DE003BB4FE /* UIViewExt.m in Sources */,
+				CBEF88D91DC05982003BB4FE /* FQImageAndTextController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88B21DC04D9E003BB4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF88BB1DC04D9E003BB4FE /* FQadaptiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF88BD1DC04D9E003BB4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF88C61DC04D9E003BB4FE /* FQadaptiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEF88B81DC04D9E003BB4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEF889C1DC04D9E003BB4FE /* FQadaptive */;
+			targetProxy = CBEF88B71DC04D9E003BB4FE /* PBXContainerItemProxy */;
+		};
+		CBEF88C31DC04D9E003BB4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEF889C1DC04D9E003BB4FE /* FQadaptive */;
+			targetProxy = CBEF88C21DC04D9E003BB4FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBEF88A91DC04D9E003BB4FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEF88AA1DC04D9E003BB4FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEF88AE1DC04D9E003BB4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEF88AF1DC04D9E003BB4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEF88C81DC04D9E003BB4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEF88C91DC04D9E003BB4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEF88CB1DC04D9E003BB4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FQadaptive/PrefixHeader.pch;
+				INFOPLIST_FILE = FQadaptive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBEF88CC1DC04D9E003BB4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FQadaptive/PrefixHeader.pch;
+				INFOPLIST_FILE = FQadaptive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBEF88CE1DC04D9E003BB4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FQadaptiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQadaptive.app/FQadaptive";
+			};
+			name = Debug;
+		};
+		CBEF88CF1DC04D9E003BB4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FQadaptiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQadaptive.app/FQadaptive";
+			};
+			name = Release;
+		};
+		CBEF88D11DC04D9E003BB4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FQadaptiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FQadaptive;
+			};
+			name = Debug;
+		};
+		CBEF88D21DC04D9E003BB4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FQadaptiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.FQadaptiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FQadaptive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEF88981DC04D9E003BB4FE /* Build configuration list for PBXProject "FQadaptive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF88C81DC04D9E003BB4FE /* Debug */,
+				CBEF88C91DC04D9E003BB4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF88CA1DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF88CB1DC04D9E003BB4FE /* Debug */,
+				CBEF88CC1DC04D9E003BB4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF88CD1DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF88CE1DC04D9E003BB4FE /* Debug */,
+				CBEF88CF1DC04D9E003BB4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF88D01DC04D9E003BB4FE /* Build configuration list for PBXNativeTarget "FQadaptiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF88D11DC04D9E003BB4FE /* Debug */,
+				CBEF88D21DC04D9E003BB4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEF88951DC04D9E003BB4FE /* Project object */;
+}
